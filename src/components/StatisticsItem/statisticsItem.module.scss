@@ -1,0 +1,13 @@
+.item {
+  display: grid;
+  gap: 5px;
+  place-items: center;
+
+  padding: 5px;
+
+  background-color: rgba(251, 251, 253, 0.8);
+
+  &:not(:last-child) {
+    border-right: 1px solid #f5f5f7;
+  }
+}

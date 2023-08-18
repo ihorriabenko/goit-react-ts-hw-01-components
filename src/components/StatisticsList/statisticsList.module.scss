@@ -1,0 +1,6 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  border-top: 1px solid #f5f5f7;
+}

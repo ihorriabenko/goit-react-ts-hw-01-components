@@ -1,0 +1,29 @@
+.item {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  padding: 10px;
+
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.status {
+  display: block;
+
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background: green;
+}
+
+.offline {
+  composes: status;
+  background: red;
+}
